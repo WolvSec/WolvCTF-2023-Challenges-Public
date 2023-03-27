@@ -1,4 +1,4 @@
-# Squirrel Feeding 1
+# Squirrel Feeding
 
 ### Idea
 

@@ -2,7 +2,7 @@
 Octeon Rev
 ## What You Need
 https://github.com/HighW4y2H3ll/OCTEON-im8724-SDK/archive/refs/tags/lfs-mirror.tar.gz  
-`git submodule update --init`
+Upstream Qemu
 ## Building
 Run `scuba build`
 ## Solving

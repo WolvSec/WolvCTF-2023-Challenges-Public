@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  charlotte:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: charlotte:1
+    container_name: charlottes-web
+    init: true
+    restart: always
+    ports:
+      - "8000:8000"

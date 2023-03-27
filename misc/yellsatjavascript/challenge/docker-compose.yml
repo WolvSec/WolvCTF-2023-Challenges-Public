@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  yellsatjavascript:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: yellsatjavascript:1
+    container_name: yellsatjavascript
+    init: true
+    restart: always
+    ports:
+      - "80:80"

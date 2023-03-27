@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  befunge3:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: befunge3:1
+    container_name: befunge3
+    init: true
+    restart: always
+    ports:
+      - "80:80"

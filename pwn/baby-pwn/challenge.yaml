@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: baby-pwn
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: kind/challenge:aea3359bcf4c9d4f49418412d1206168d2da71fb7214357a963d2d023b799ad3

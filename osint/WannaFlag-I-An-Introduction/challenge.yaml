@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: wanna-flag-i
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:764c544f80b6884712ddaedb364b1c2cc7f88153d8c28be1f9e09f79de6e3713
+  image: kind/challenge:96a1e5021d2d7958264f52acbde3300929d55f5afec72840c80cd7a8ac1eae35

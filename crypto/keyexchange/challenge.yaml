@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: keyexchange
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:a42e6a21d79986a18bd89a98ec608e007a1a3948492596e0530466635157e6d6
+  image: kind/challenge:3bf66d9ff0688a90d1a30f472502b69d9201813d643f875e6f70e60726d23ade

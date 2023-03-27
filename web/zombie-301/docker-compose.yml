@@ -1,0 +1,16 @@
+version: "2.2"
+
+services:
+  zombie-301:
+    build:
+      context: ../zombie-common
+      dockerfile: ../zombie-common/Dockerfile
+      args:
+        configFile: '{"flag": "wctf{h0w-d1d-y0u-r34d-7h3-3nv-v4r-31831}", "httpOnly": true, "allowDebug": false}'
+
+    image: zombie-301:1
+    container_name: zombie-301
+    init: true
+    restart: always
+    ports:
+      - "80:80"

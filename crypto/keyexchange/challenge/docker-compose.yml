@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  keyexchange:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: keyexchange:1
+    container_name: keyexchange
+    init: true
+    restart: always
+    ports:
+      - "80:80"

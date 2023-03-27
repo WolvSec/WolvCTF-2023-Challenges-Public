@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: limited-characters
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:47cda4137a802f22726994b463ee9520b6eb6161ff93039d83ec6268f5932ab9
+  image: kind/challenge:615e3823d790d01c9f76b90db20b2763312d011c6c127515ba711d35d355176d

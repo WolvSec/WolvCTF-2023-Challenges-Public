@@ -1,0 +1,5 @@
+# files to not include in the image
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md

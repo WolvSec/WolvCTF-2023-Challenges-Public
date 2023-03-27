@@ -1,0 +1,16 @@
+version: "2.2"
+
+services:
+  zombie-401:
+    build:
+      context: ../zombie-common
+      dockerfile: ../zombie-common/Dockerfile
+      args:
+        configFile: '{"flag": "find-the-secret-flag" ,"httpOnly": false, "allowDebug": true, "secret-flag": "wctf{y0u-4r3-4n-4dm1n-807-m4573r-86835}"}'
+
+    image: zombie-401:1
+    container_name: zombie-401
+    init: true
+    restart: always
+    ports:
+      - "80:80"

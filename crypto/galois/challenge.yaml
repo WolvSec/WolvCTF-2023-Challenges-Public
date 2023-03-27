@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: galois
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:d3d83db10ee489d463c370a2e0f31fdafe9c45eec838588edd6760604114ef90
+  image: kind/challenge:4dba1adb7f3db5c6699ac6cf263318ea7e8ab103e6e6d1dabd5e13a0f1f7be1e

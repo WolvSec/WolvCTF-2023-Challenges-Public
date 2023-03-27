@@ -1,0 +1,1 @@
+(setattr(__import__(__name__),'print',exec),setattr(__import__(__name__),'vars',input))

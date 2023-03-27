@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: echotwo
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:a42e6a21d79986a18bd89a98ec608e007a1a3948492596e0530466635157e6d6
+  image: kind/challenge:6e2b4f41a1613682aadbd1cea106d072c6bae930c340110047ba6aeeefeea2de

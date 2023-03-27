@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: yellsatbefunge2
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:a42e6a21d79986a18bd89a98ec608e007a1a3948492596e0530466635157e6d6
+  image: eu.gcr.io/wolvctf-2023-kctf/yellsatbefunge2-challenge:403afc19477e2b67c610e28a2da3dc0017eb6f8c67ae41bd60bbff2b9efc18da

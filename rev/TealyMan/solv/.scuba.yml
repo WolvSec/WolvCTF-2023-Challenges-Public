@@ -1,0 +1,13 @@
+image: tealyman
+
+aliases:
+  setup:
+    script:
+      - npm --prefix `pwd` install 
+      - rm -rf node_modules/algosms/node_modules
+  build:
+    script:
+      - ./node_modules/.bin/tsc
+  exploit:
+    script:
+      - node build/solv.js

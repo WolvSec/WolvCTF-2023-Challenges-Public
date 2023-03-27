@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  smuggler:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: smuggler:1
+    container_name: smuggler
+    init: true
+    restart: always
+    ports:
+      - "8000:8000"

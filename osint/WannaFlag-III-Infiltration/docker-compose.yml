@@ -1,0 +1,9 @@
+version: "2.2"
+
+services:
+  hidden-css:
+    build: .
+    image: wanna-flag-d60bf7cd-012a-4fcc-9a4c-e60eca6b653f:1
+    container_name: wanna-flag-d60bf7cd-012a-4fcc-9a4c-e60eca6b653f
+    ports:
+      - "80:80"

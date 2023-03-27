@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: yellsatjavascript
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: kind/healthcheck:a42e6a21d79986a18bd89a98ec608e007a1a3948492596e0530466635157e6d6
+  image: kind/challenge:224beb7708fcca085826f854c1ece1cc245c38974162a6a40a128d9584c8b31e

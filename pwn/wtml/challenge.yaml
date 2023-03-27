@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: wtml
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: true
+    image: kind/healthcheck:6840a74eba00a09bced7d3af3b0e80074112518d599e5829f1ca1e346477becb
+  image: kind/challenge:18efd64a3f917c45f8cde685e4371a3e2e15cab03cf31f7d0fa9010b6057545b

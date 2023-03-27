@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  escaped:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: escaped:1
+    container_name: escaped
+    init: true
+    restart: always
+    ports:
+      - "80:80"

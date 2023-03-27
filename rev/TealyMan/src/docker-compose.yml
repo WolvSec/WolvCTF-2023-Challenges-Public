@@ -1,0 +1,9 @@
+version: "1.0"
+
+services:
+  tealy-man:
+    build: .
+    image: tealy-man:1.0
+    container_name: tealy-man
+    ports:
+      - "80:80"

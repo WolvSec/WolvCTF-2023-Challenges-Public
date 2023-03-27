@@ -1,0 +1,3 @@
+Follow the TCP stream with the data transfer, convert the data to RAW, and save as a jpg file (as noted in the bits of the data)
+Steghide to extract data (no password) using steghide -sf (image.jpg) then convert from b64 to ascii for the flag
+wctf{an_1mage_in_a_peecap_b64}

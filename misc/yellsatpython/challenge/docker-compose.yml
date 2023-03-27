@@ -1,0 +1,14 @@
+version: "2.2"
+
+services:
+  yellsatpython:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+    image: yellsatpython:1
+    container_name: yellsatpython
+    init: true
+    restart: always
+    ports:
+      - "80:80"

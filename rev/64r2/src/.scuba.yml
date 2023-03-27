@@ -1,0 +1,17 @@
+image: 64r2
+aliases:
+  pull:
+    script:
+      - wget https://github.com/HighW4y2H3ll/OCTEON-im8724-SDK/archive/refs/tags/lfs-mirror.tar.gz
+      - tar -xzf lfs-mirror.tar.gz
+  build:
+    script:
+      - OCTEON-im8724-SDK-lfs-mirror/tools-gcc-4.7/bin/mips64-octeon-linux-gnu-gcc --static -O3 -g0 main.c tiny_aes.c -o main
+      - > 
+        OCTEON-im8724-SDK-lfs-mirror/tools-gcc-4.7/bin/mips64-octeon-linux-gnu-strip
+        --keep-symbol=ptmalloc_init
+        --keep-symbol=__libc_malloc
+        --keep-symbol=arena_get2.isra.5
+        --keep-symbol=__ctype_init
+        --keep-symbol=__libc_start_main
+        main

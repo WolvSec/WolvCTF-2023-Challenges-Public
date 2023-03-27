@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "lib": ["es2022", "esnext"],
+      "outDir": "build/",
+      "skipLibCheck": true
+    },
+    "target": "es2022"
+}

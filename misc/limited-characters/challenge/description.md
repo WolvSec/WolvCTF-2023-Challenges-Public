@@ -1,0 +1,1 @@
+Keyboards are expensive, so I've decided to be nice and cut down on the unnecessary real estate. Enjoy your low form-factor python terminal!

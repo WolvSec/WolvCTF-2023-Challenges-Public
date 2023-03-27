@@ -16,7 +16,7 @@
 
 ## Writeups:
 - Author Writeup - Coming Soon
-nighthex#5712's discord msg (only solve):
+- nighthex#5712's discord msg (only solve):
 > I was sure the way I solved 428 wasn't intended lol, I spent a while chasing down anything related to the github link, but in the end tried some good old hex bruteforcing
 since I had the redacted jpeg, I figured that the first few rows of the redacted image would be identical to the non-redacted one, so I searched for similar hex strings in  all files and found one in an unallocated space chunk, pasted that after the redacted jpeg header and it was the full image
 

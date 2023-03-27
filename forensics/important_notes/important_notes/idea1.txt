@@ -1,0 +1,11 @@
+Challenge Name: "Memory Forensics Investigation"
+
+Challenge Description: In this challenge, participants are provided with a memory dump file (in the format of .raw or .dmp) of a compromised system. The system is suspected to have been infected with a malware that was used to steal sensitive data from the system. The participants need to analyze the memory dump file to find out what kind of malware was used and what data was stolen.
+
+Challenge Objective: The objective of this challenge is to test participants' memory forensics investigation skills, including their ability to extract information from a memory dump file, identify malicious processes running in memory, identify the type of malware, and identify the stolen data.
+
+Challenge Solution: The participants need to use a memory forensics tool (such as Volatility Framework) to analyze the memory dump file. They can start by identifying the running processes and any suspicious DLLs loaded into memory. They can then use the Volatility plugin to dump the processes and analyze them using a disassembler (such as IDA Pro). By analyzing the dumped processes, participants can identify the type of malware used and the stolen data.
+
+Hints: The challenge can be made more interesting by adding some obfuscation or encryption to the stolen data. The participants may need to use additional tools or techniques (such as decryption or decoding) to extract the sensitive information from the memory dump.
+
+Difficulty Level: This challenge can be classified as intermediate to advanced difficulty level, as it requires a good understanding of memory forensics techniques and the ability to analyze the data dump file.

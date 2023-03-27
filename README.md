@@ -18,7 +18,13 @@
 
 50, Beginner, [Elytra](./forensics/elytra/)
 
-100, Easy, [Dino Trading](./crypto/DinoTrading/)
+100, Easy, [Dino Trading](./forensics/DinoTrading/)
+
+413, Easy, [Employee 427: Compromised](./forensics/Employee-427-Compromised/)
+
+404, Medium, [Employee 427: Locate](./forensics/Employee-427-Locate/)
+
+500, Hard, [Employee 428: Recovery](./forensics/Employee-428-Recovery/)
 
 ### Misc.
 
@@ -48,13 +54,13 @@
 
 188, Easy, [WannaFlag I: An Introduction](./osint/WannaFlag-I-An-Introduction/)
 
-348, Hard, [WannaFlag II: Payments](./osint/WannaFlag-II-Payments/)
+348, Easy, [WannaFlag II: Payments](./osint/WannaFlag-II-Payments/)
 
 381, Medium, [Wanna Flag III: Infiltration](./osint/WannaFlag-III-Infiltration/)
 
-491, Hard, [Wanna Flag IV: Exfiltration](./osint/WannaFlag-IV-Exfiltration/)
+491, Medium, [Wanna Flag IV: Exfiltration](./osint/WannaFlag-IV-Exfiltration/)
 
-500, Hard, [Wanna Flag V: The Mastermind](./osint/WannaFlag-V-The%20Mastermind/)
+500, Hard, [Wanna Flag V: The Mastermind](./osint/WannaFlag-V-The-Mastermind/)
 
 ### PWN
 

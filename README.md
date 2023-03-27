@@ -20,6 +20,8 @@
 
 100, Easy, [Dino Trading](./forensics/DinoTrading/)
 
+456, Medium, [important_notes](./forensics/important_notes/)
+
 413, Easy, [Employee 427: Compromised](./forensics/Employee-427-Compromised/)
 
 404, Medium, [Employee 427: Locate](./forensics/Employee-427-Locate/)

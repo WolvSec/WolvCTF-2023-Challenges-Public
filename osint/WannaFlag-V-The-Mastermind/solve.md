@@ -15,5 +15,5 @@
 
 ## Writeups:
 Author Writeup - Coming Soon
--WannaCry's writeup https://cdn.discordapp.com/attachments/1087103372269723668/1087105542465532055/OSINT_WannaFlag_V_-_The_Mastermind.pdf
+- WannaCry's writeup - https://cdn.discordapp.com/attachments/1087103372269723668/1087105542465532055/OSINT_WannaFlag_V_-_The_Mastermind.pdf
 - https://enscribe.dev/ctfs/wolv23/osint/wannaflag/#WannaFlag-V:-The-Mastermind

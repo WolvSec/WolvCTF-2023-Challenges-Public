@@ -9,14 +9,12 @@ $ docker compose build
 ## Generate
 Generate `p`,`g`,`q`
 ```
-$ pwd
-~/WolvCtf-2023-Challenges/christheyankee/DownUnder
-$ scuba generate
+$ python3 generate.py
 ```
 ## Run
 Run the challenge server
 ```
-$ scuba run
+$ docker compose up
 ```
 
 ## Solve

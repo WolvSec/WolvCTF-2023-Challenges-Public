@@ -56,11 +56,11 @@
 
 348, Easy, [WannaFlag II: Payments](./osint/WannaFlag-II-Payments/)
 
-381, Medium, [Wanna Flag III: Infiltration](./osint/WannaFlag-III-Infiltration/)
+381, Medium, [WannaFlag III: Infiltration](./osint/WannaFlag-III-Infiltration/)
 
-491, Medium, [Wanna Flag IV: Exfiltration](./osint/WannaFlag-IV-Exfiltration/)
+491, Medium, [WannaFlag IV: Exfiltration](./osint/WannaFlag-IV-Exfiltration/)
 
-500, Hard, [Wanna Flag V: The Mastermind](./osint/WannaFlag-V-The-Mastermind/)
+500, Hard, [WannaFlag V: The Mastermind](./osint/WannaFlag-V-The-Mastermind/)
 
 ### PWN
 

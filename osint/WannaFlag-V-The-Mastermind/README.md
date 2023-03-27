@@ -1,4 +1,4 @@
-# WannaFlag IV: Exfiltration
+# WannaFlag V: The Mastermind
 
 **Author:** dree#0001
 

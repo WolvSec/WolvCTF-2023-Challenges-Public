@@ -1,0 +1,9 @@
+version: "2.2"
+
+services:
+  adversal:
+    build: .
+    image: adversal-revenge:1
+    container_name: adversal-revenge
+    ports:
+      - "80:8080"

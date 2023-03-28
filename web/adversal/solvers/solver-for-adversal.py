@@ -4,7 +4,8 @@ from threading import Condition, Thread
 import requests
 from pyngrok import ngrok
 
-CHAL_URL = 'https://adversal-tlejfksioa-ul.a.run.app'
+# CHAL_URL = 'https://adversal-tlejfksioa-ul.a.run.app'
+CHAL_URL = 'https://adversal-revenge-tlejfksioa-ul.a.run.app'
 
 PORT = 8500
 
